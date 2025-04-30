@@ -1,0 +1,19 @@
+[package]
+name = "raptor-clmm-monitor"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.86"
+carbon-core = "0.8.0"
+carbon-raydium-clmm-decoder = "0.8.0"
+carbon-rpc-program-subscribe-datasource = "0.8.0"
+carbon-log-metrics = "0.8.0"
+solana-sdk = "=2.1.15"
+solana-pubkey = "=2.1.15"
+solana-client = "=2.1.15"
+tokio = "1.43.0"
+dotenv = "0.15.0"
+env_logger = "0.11.5"
+log = "0.4.25"
+
